@@ -1,0 +1,7 @@
+.overlay {
+    background-image: url('https://i.ibb.co/pKmZm8b/Rectangle-4288.png'), linear-gradient(#FFFFFFF2, #FFFFFFF2);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
