@@ -24,7 +24,7 @@ const Statistics = () => {
     return (
         <div style={{ padding: '20px', textAlign: 'center' }}>
             <ResponsiveContainer width="100%" height={400}>
-                <PieChart width={600} height={600}>
+                <PieChart width={300} height={300}>
                     <Pie
                         data={data}
                         cx="50%"
