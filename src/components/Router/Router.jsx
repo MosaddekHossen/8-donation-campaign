@@ -4,6 +4,7 @@ import Error from "../Pages/Error/Error";
 import Home from "../Pages/Home/Home";
 import Donation from "../Pages/Donation/Donation";
 import Statistics from "../Pages/Statistics/Statistics";
+import Details from "../Pages/Home/Details";
 
 const Router = createBrowserRouter([
     {
@@ -22,6 +23,10 @@ const Router = createBrowserRouter([
             {
                 path: '/statistics',
                 element: <Statistics></Statistics>
+            },
+            {
+                path: '/details/:id',
+                element: <Details></Details>
             }
         ]
     }
