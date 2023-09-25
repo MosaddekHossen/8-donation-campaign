@@ -1,8 +1,7 @@
 import { Link } from "react-router-dom";
 
-const DonationSingle = ({ donation }) => {
-    const [{ id, image, Title, Price, Category }] = donation;
-    console.log(image)
+const DonationSingle = ({ data }) => {
+    const { id, image, Title, Price, Category } = data;
     return (
         <div>
             <div className="relative flex w-full max-w-[48rem] flex-row rounded-xl bg-sky-200 bg-clip-border text-gray-700 shadow-md">
