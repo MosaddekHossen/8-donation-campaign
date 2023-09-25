@@ -31,7 +31,7 @@ const Statistics = () => {
                         cy="50%"
                         labelLine={false}
                         label={renderCustomizedLabel}
-                        outerRadius={200}
+                        outerRadius={150}
                         fill="#8884d8"
                         dataKey="value"
                     >
@@ -42,22 +42,22 @@ const Statistics = () => {
                 </PieChart>
             </ResponsiveContainer>
             <div style={{ marginTop: '20px' }}>
-                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '300px', margin: '0 auto', marginBottom: '10px' }}>
-                    <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', padding: '10px' }}>
-                        <p style={{ marginRight: '10px', width: '120px' }}>Your Donation</p>
+                <div className='gap-5 md:gap-10' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '300px', margin: '0 auto', marginBottom: '10px' }}>
+                    <div className='md:flex' style={{ flexDirection: 'row', alignItems: 'center', padding: '10px' }}>
+                        <p style={{ marginRight: '10px', width: '110px' }}>Your Donation</p>
                         <div
                             style={{
-                                width: '300px',
+                                width: '100px',
                                 backgroundColor: COLORS[1],
                                 height: '20px',
                             }}
                         ></div>
                     </div>
                     <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', padding: '10px' }}>
-                        <p style={{ marginRight: '10px', width: '120px' }}>Total Donation</p>
+                        <p style={{ marginRight: '10px', width: '110px' }}>Total Donation</p>
                         <div
                             style={{
-                                width: '300px',
+                                width: '100px',
                                 backgroundColor: COLORS[0],
                                 height: '20px',
                             }}

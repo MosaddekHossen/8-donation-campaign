@@ -25,7 +25,7 @@ const Detail = ({ findCard }) => {
                     'success'
                 )
             }
-            else{
+            else {
                 Swal.fire(
                     'Oops!',
                     'Already exist!',
