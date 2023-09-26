@@ -1,6 +1,9 @@
 import { PieChart, Pie, Cell, ResponsiveContainer } from 'recharts';
 
 const Statistics = () => {
+
+
+    
     const data = [
         { name: 'Group A', value: 67.40 },
         { name: 'Group B', value: 33.60 },
