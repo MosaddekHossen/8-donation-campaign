@@ -47,9 +47,10 @@ const Statistics = () => {
                         <p style={{ marginRight: '10px', width: '110px' }}>Your Donation</p>
                         <div
                             style={{
+                                borderRadius: '5px',
                                 width: '100px',
                                 backgroundColor: COLORS[1],
-                                height: '20px',
+                                height: '15px',
                             }}
                         ></div>
                     </div>
@@ -57,9 +58,10 @@ const Statistics = () => {
                         <p style={{ marginRight: '10px', width: '110px' }}>Total Donation</p>
                         <div
                             style={{
+                                borderRadius: '5px',
                                 width: '100px',
                                 backgroundColor: COLORS[0],
-                                height: '20px',
+                                height: '15px',
                             }}
                         ></div>
                     </div>

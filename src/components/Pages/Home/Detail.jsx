@@ -39,7 +39,7 @@ const Detail = ({ findCard }) => {
         <div className="max-w-7xl mx-auto px-8 lg:px-0 pb-20">
             <div className="relative">
                 <img className="w-full h-[80vh] rounded-lg" src={image} alt="" />
-                <div className="bg-[#8b8b887d] absolute w-full bottom-0 pl-8 py-4">
+                <div className="bg-[#0B0B0B80] absolute w-full bottom-0 pl-8 py-4">
                     <button onClick={handleAddDonation} className="bg-[#FF444A] text-xl font-semibold text-white px-5 py-3 rounded-lg">Donate {Price}</button>
                 </div>
             </div>

@@ -36,7 +36,7 @@ const Donation = () => {
                         See All
                     </button> : ''
                 } */}
-                <button onClick={() => setIsShow(!isShow)} className="my-2 rounded-md mt-4 py-1 bg-[#218f4d] text-2xl px-5">
+                <button onClick={() => setIsShow(!isShow)} className="my-2 font-semibold rounded-md mt-4 py-2 bg-[#009444] text-white text-[16px] px-7">
                     {
                         isShow
                             ? 'See less'

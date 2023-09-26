@@ -12,10 +12,10 @@ const Banner = () => {
             console.log(data)
         }
     }
-    
+
     return (
         <>
-            <div className='bg-[url(https://donationcampaign.surge.sh/Banner4.png)] overlay top-0 0 w-full -z-10 h-[100vh] text-center flex justify-center items-center'>
+            <div className='bg-[url(https://donationcampaign.surge.sh/Banner4.png)] overlay -mt-[184px] w-full -z-10 h-[100vh] text-center flex justify-center items-center'>
                 <h1 className='text-[#0B0B0B] text-[28px] md:text-[38px] lg:text-[48px] font-bold mb-28'>I Grow By Helping People In Need</h1>
                 <div className="absolute md:w-1/3 w-1/2 top-1/2 md:left-1/3">
                     <form>
