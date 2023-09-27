@@ -1,12 +1,17 @@
+import { useLoaderData } from 'react-router-dom';
 import { PieChart, Pie, Cell, ResponsiveContainer } from 'recharts';
 
 const Statistics = () => {
+    const donationItem = JSON.parse(localStorage.getItem('donation'));
+    const loderData = useLoaderData();
+    const number = parseFloat(loderData.length);
+    const localLength = parseInt(donationItem.length);
+    const total = number - localLength;
+    // console.log(total,localLength);
 
-
-    
     const data = [
-        { name: 'Group A', value: 67.40 },
-        { name: 'Group B', value: 33.60 },
+        { name: 'Group A', value: total },
+        { name: 'Group B', value: localLength },
     ];
 
     const COLORS = ['#FF444A', '#00C49F'];

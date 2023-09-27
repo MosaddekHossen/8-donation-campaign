@@ -1,17 +1,6 @@
-import { data } from 'autoprefixer';
-import hooksCards from '../../Hooks/cards';
 import './Style.css';
 
-const Banner = () => {
-    const [element] = hooksCards();
-    const handleSearch = () => {
-        const find = document.getElementById('search');
-        const fin = find.value
-        {
-            element.filter(data => data.Clothing === fin);
-            console.log(data)
-        }
-    }
+const Banner = () => {   
 
     return (
         <>
@@ -20,7 +9,7 @@ const Banner = () => {
                 <div className="absolute md:w-1/3 w-1/2 top-1/2 md:left-1/3">
                     <form>
                         <input type="search" id="search" className="block w-full p-4 border rounded-lg bg-gray-50" placeholder="Search here...." required />
-                        <button onClick={handleSearch} type="submit" className="text-white absolute right-0 bottom-[3px] bg-[#FF444A] hover:bg-blue-800 font-medium rounded-lg text-sm px-3 md:px-8 py-4">Search</button>
+                        <button type="submit" className="text-white absolute right-0 bottom-[3px] bg-[#FF444A] hover:bg-blue-800 font-medium rounded-lg text-sm px-3 md:px-8 py-4">Search</button>
                     </form>
                 </div>
             </div>

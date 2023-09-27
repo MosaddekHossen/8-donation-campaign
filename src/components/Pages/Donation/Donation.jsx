@@ -22,7 +22,7 @@ const Donation = () => {
                 noFound
                     ? <p className="h[80vh] flex justify-center items-center">{noFound}</p>
                     : <div>
-                        <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-5">
+                        <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 px-8 lg:px-0 gap-5">
                             {
                                 isShow ? donation?.map(data => <DonationSingle key={data.id} data={data}></DonationSingle>)
                                     : donation?.slice(0, 4).map(data => <DonationSingle key={data.id} data={data}></DonationSingle>)
