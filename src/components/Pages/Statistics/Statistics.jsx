@@ -4,8 +4,8 @@ import { PieChart, Pie, Cell, ResponsiveContainer } from 'recharts';
 const Statistics = () => {
     const donationItem = JSON.parse(localStorage.getItem('donation'));
     const loderData = useLoaderData();
-    const number = parseFloat(loderData.length);
-    const localLength = parseInt(donationItem.length);
+    const number = parseFloat(loderData?.length);
+    const localLength = parseInt(donationItem?.length) || 0;
     const total = number - localLength;
     // console.log(total,localLength);
 
@@ -13,7 +13,6 @@ const Statistics = () => {
         { name: 'Group A', value: total },
         { name: 'Group B', value: localLength },
     ];
-
     const COLORS = ['#FF444A', '#00C49F'];
 
     const RADIAN = Math.PI / 180;

@@ -30,7 +30,7 @@ const Donation = () => {
                         </div>
                     </div>
             }
-            <div className=" mb-10 flex justify-center">
+            <div className="mb-10 flex justify-center">
                 {
                     donation?.length > 4 && !isShow && <button onClick={() => setIsShow(!isShow)} className="my-2 font-semibold rounded-md mt-4 py-2 bg-[#009444] text-white text-[16px] px-7">
                         See All
